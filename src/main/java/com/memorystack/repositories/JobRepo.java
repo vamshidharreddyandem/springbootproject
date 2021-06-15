@@ -18,7 +18,7 @@ public interface JobRepo extends JpaRepository<Job, Serializable> {
 
 	@Transactional
 	@Modifying
-	@Query("UPDATE job j SET j.title = ?1, j.location = ?2, j.payrate = ?3, j.discription = ?4 WHERE j.id = ?5")
-	int updateJobById(String title, String location, Integer payrate, String discription, Integer id);
+	@Query(value="UPDATE job  SET title = ?1, location = ?2, payrate = ?3, discription = ?4 WHERE id = ?5",nativeQuery = true)
+	Integer updateJobById(String title, String location, Integer payrate, String discription, Integer id);
 
 }

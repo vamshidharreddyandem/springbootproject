@@ -85,6 +85,7 @@ public class JobRestController {
 	public ResponseEntity<?> updateJob(@PathVariable String jobid, @RequestBody Job job){
 		Optional<Job> j = jobServiceImpl.findJobById(Integer.parseInt(jobid));
 		if (j.isPresent()) {
+			job.setId(Integer.parseInt(jobid));
 			job = jobServiceImpl.updateJobById(Integer.parseInt(jobid),job);
 			return ResponseEntity.ok(job);
 		}

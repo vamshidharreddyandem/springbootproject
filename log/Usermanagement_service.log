@@ -16820,3 +16820,754 @@ Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is 
 2021-06-14 18:28:29 [main] INFO  DeferredRepositoryInitializationListener:53 - Spring Data repositories initialized!
 2021-06-14 18:28:29 [main] INFO  MemoryStackApplication:61 - Started MemoryStackApplication in 7.499 seconds (JVM running for 8.369)
 2021-06-15 09:02:15 [HikariPool-1 housekeeper] WARN  HikariPool:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13h2m23s796ms778µs900ns).
+2021-06-15 12:05:04 [main] INFO  MemoryStackApplication:55 - Starting MemoryStackApplication on Vamshi-Laptop-01 with PID 3260 (C:\Project_WS\user_management_service\springbootproject\target\classes started by vamsh in C:\Project_WS\user_management_service\springbootproject)
+2021-06-15 12:05:04 [main] INFO  MemoryStackApplication:651 - No active profile set, falling back to default profiles: default
+2021-06-15 12:05:05 [main] INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-06-15 12:05:06 [main] INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 179ms. Found 11 JPA repository interfaces.
+2021-06-15 12:05:06 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@47fbc56' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:05:06 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:05:07 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 5000 (http)
+2021-06-15 12:05:07 [main] INFO  ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 3043 ms
+2021-06-15 12:05:07 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 12:05:08 [main] INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-15 12:05:08 [task-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 12:05:08 [task-1] INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-06-15 12:05:08 [task-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-15 12:05:08 [task-1] INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-06-15 12:05:09 [task-1] INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-06-15 12:05:09 [task-1] INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-06-15 12:05:10 [task-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 12:05:10 [task-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 12:05:11 [main] INFO  EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-15 12:05:11 [main] INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@750ed637, org.springframework.security.web.context.SecurityContextPersistenceFilter@388d14e, org.springframework.security.web.header.HeaderWriterFilter@22d322f5, org.springframework.web.filter.CorsFilter@5190010f, org.springframework.security.web.authentication.logout.LogoutFilter@781711b7, com.memorystack.security.JwtAuthenticationFilter@3119cf6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59939293, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@991cbde, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@673e76b3, org.springframework.security.web.session.SessionManagementFilter@47f04e4d, org.springframework.security.web.access.ExceptionTranslationFilter@640cc04b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58fd1214]
+2021-06-15 12:05:11 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 5000 (http) with context path ''
+2021-06-15 12:05:11 [main] INFO  DeferredRepositoryInitializationListener:49 - Triggering deferred initialization of Spring Data repositories…
+2021-06-15 12:05:12 [main] WARN  AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobRepo': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract int com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+2021-06-15 12:05:12 [main] INFO  LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 12:05:12 [main] INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-15 12:05:12 [main] INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-06-15 12:05:12 [main] INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-06-15 12:05:12 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-15 12:05:12 [main] ERROR SpringApplication:837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobRepo': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract int com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1828) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1265) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:624) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:612) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:51) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:36) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:898) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at com.memorystack.MemoryStackApplication.main(MemoryStackApplication.java:12) [classes/:?]
+Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract int com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped [UPDATE job j SET j.title = ?1, j.location = ?2, j.payrate = ?3, j.discription = ?4 WHERE j.id = ?5]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped [UPDATE job j SET j.title = ?1, j.location = ?2, j.payrate = ?3, j.discription = ?4 WHERE j.id = ?5]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:220) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:604) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:716) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped
+	at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:169) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.tree.FromElementFactory.addFromElement(FromElementFactory.java:91) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.tree.FromClause.addFromElement(FromClause.java:77) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromElement(HqlSqlWalker.java:333) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3758) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3647) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:732) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.updateStatement(HqlSqlBaseWalker.java:389) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:281) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:604) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:716) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+2021-06-15 12:15:21 [main] INFO  MemoryStackApplication:55 - Starting MemoryStackApplication on Vamshi-Laptop-01 with PID 13496 (C:\Project_WS\user_management_service\springbootproject\target\classes started by vamsh in C:\Project_WS\user_management_service\springbootproject)
+2021-06-15 12:15:21 [main] INFO  MemoryStackApplication:651 - No active profile set, falling back to default profiles: default
+2021-06-15 12:15:22 [main] INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-06-15 12:15:22 [main] INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 204ms. Found 11 JPA repository interfaces.
+2021-06-15 12:15:23 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@47fbc56' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:15:23 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:15:24 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 5000 (http)
+2021-06-15 12:15:24 [main] INFO  ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 3058 ms
+2021-06-15 12:15:24 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 12:15:24 [main] INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-15 12:15:25 [task-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 12:15:25 [task-1] INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-06-15 12:15:25 [task-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-15 12:15:25 [task-1] INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-06-15 12:15:26 [task-1] INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-06-15 12:15:26 [task-1] INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-06-15 12:15:27 [task-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 12:15:27 [task-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 12:15:28 [main] INFO  EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-15 12:15:28 [main] INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d8cf9ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cd43562, org.springframework.security.web.header.HeaderWriterFilter@65afeb6d, org.springframework.web.filter.CorsFilter@5f0bab7e, org.springframework.security.web.authentication.logout.LogoutFilter@642a16aa, com.memorystack.security.JwtAuthenticationFilter@3119cf6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68b366e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78d71df1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a7b2e2, org.springframework.security.web.session.SessionManagementFilter@3520963d, org.springframework.security.web.access.ExceptionTranslationFilter@630bf683, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@298b64f7]
+2021-06-15 12:15:28 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 5000 (http) with context path ''
+2021-06-15 12:15:28 [main] INFO  DeferredRepositoryInitializationListener:49 - Triggering deferred initialization of Spring Data repositories…
+2021-06-15 12:15:29 [main] WARN  AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobRepo': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract int com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+2021-06-15 12:15:29 [main] INFO  LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 12:15:29 [main] INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-15 12:15:29 [main] INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-06-15 12:15:29 [main] INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-06-15 12:15:29 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-15 12:15:29 [main] ERROR SpringApplication:837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobRepo': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract int com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1828) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1265) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:624) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:612) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:51) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:36) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:898) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at com.memorystack.MemoryStackApplication.main(MemoryStackApplication.java:12) [classes/:?]
+Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract int com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped [UPDATE job  SET title = ?1, location = ?2, payrate = ?3, discription = ?4 WHERE id = ?5]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped [UPDATE job  SET title = ?1, location = ?2, payrate = ?3, discription = ?4 WHERE id = ?5]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:220) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:604) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:716) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped
+	at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:169) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.tree.FromElementFactory.addFromElement(FromElementFactory.java:91) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.tree.FromClause.addFromElement(FromClause.java:77) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromElement(HqlSqlWalker.java:333) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3758) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3647) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:732) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.updateStatement(HqlSqlBaseWalker.java:389) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:281) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:604) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:716) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+2021-06-15 12:18:26 [main] INFO  MemoryStackApplication:55 - Starting MemoryStackApplication on Vamshi-Laptop-01 with PID 1352 (C:\Project_WS\user_management_service\springbootproject\target\classes started by vamsh in C:\Project_WS\user_management_service\springbootproject)
+2021-06-15 12:18:26 [main] INFO  MemoryStackApplication:651 - No active profile set, falling back to default profiles: default
+2021-06-15 12:18:27 [main] INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-06-15 12:18:27 [main] INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 174ms. Found 11 JPA repository interfaces.
+2021-06-15 12:18:28 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@10895b16' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:18:28 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:18:29 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 5000 (http)
+2021-06-15 12:18:29 [main] INFO  ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 2944 ms
+2021-06-15 12:18:29 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 12:18:29 [main] INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-15 12:18:29 [task-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 12:18:29 [task-1] INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-06-15 12:18:30 [task-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-15 12:18:30 [task-1] INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-06-15 12:18:30 [task-1] INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-06-15 12:18:30 [task-1] INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-06-15 12:18:32 [task-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 12:18:32 [task-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 12:18:32 [main] INFO  EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-15 12:18:32 [main] INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75fe1619, org.springframework.security.web.context.SecurityContextPersistenceFilter@68b366e2, org.springframework.security.web.header.HeaderWriterFilter@5ba03c82, org.springframework.web.filter.CorsFilter@4e245739, org.springframework.security.web.authentication.logout.LogoutFilter@294aba23, com.memorystack.security.JwtAuthenticationFilter@1d408060, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10b687f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a9c5b75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d66e944, org.springframework.security.web.session.SessionManagementFilter@1cd43562, org.springframework.security.web.access.ExceptionTranslationFilter@65afeb6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78a8978a]
+2021-06-15 12:18:33 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 5000 (http) with context path ''
+2021-06-15 12:18:33 [main] INFO  DeferredRepositoryInitializationListener:49 - Triggering deferred initialization of Spring Data repositories…
+2021-06-15 12:18:34 [main] WARN  AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobRepo': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.lang.Integer com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+2021-06-15 12:18:34 [main] INFO  LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 12:18:34 [main] INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-15 12:18:34 [main] INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-06-15 12:18:34 [main] INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-06-15 12:18:34 [main] INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-15 12:18:34 [main] ERROR SpringApplication:837 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jobRepo': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.lang.Integer com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1828) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1265) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:624) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:612) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:51) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.config.DeferredRepositoryInitializationListener.onApplicationEvent(DeferredRepositoryInitializationListener.java:36) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:898) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at com.memorystack.MemoryStackApplication.main(MemoryStackApplication.java:12) [classes/:?]
+Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.lang.Integer com.memorystack.repositories.JobRepo.updateJobById(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer)!
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped [UPDATE job  SET title = ?1, location = ?2, payrate = ?3, discription = ?4 WHERE id = ?5]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:725) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped [UPDATE job  SET title = ?1, location = ?2, payrate = ?3, discription = ?4 WHERE id = ?5]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:103) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:220) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:604) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:716) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: job is not mapped
+	at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:169) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.tree.FromElementFactory.addFromElement(FromElementFactory.java:91) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.tree.FromClause.addFromElement(FromClause.java:77) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromElement(HqlSqlWalker.java:333) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3758) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3647) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:732) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.updateStatement(HqlSqlBaseWalker.java:389) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:281) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:276) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:192) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:604) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:716) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) ~[hibernate-core-5.4.22.Final.jar:5.4.22.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_281]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366) ~[spring-orm-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	at com.sun.proxy.$Proxy172.createQuery(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:146) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:216) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81) ~[spring-data-jpa-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:99) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_281]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_281]
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1051) ~[?:1.8.0_281]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_281]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708) ~[?:1.8.0_281]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_281]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:94) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at java.util.Optional.map(Optional.java:215) ~[?:1.8.0_281]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:84) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:95) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:244) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:57) ~[spring-data-commons-2.3.5.RELEASE.jar:2.3.5.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169) ~[spring-beans-5.2.10.RELEASE.jar:5.2.10.RELEASE]
+	... 24 more
+2021-06-15 12:24:39 [main] INFO  MemoryStackApplication:55 - Starting MemoryStackApplication on Vamshi-Laptop-01 with PID 24460 (C:\Project_WS\user_management_service\springbootproject\target\classes started by vamsh in C:\Project_WS\user_management_service\springbootproject)
+2021-06-15 12:24:39 [main] INFO  MemoryStackApplication:651 - No active profile set, falling back to default profiles: default
+2021-06-15 12:24:40 [main] INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-06-15 12:24:40 [main] INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 183ms. Found 11 JPA repository interfaces.
+2021-06-15 12:24:41 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@47fbc56' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:24:41 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-15 12:24:42 [main] INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 5000 (http)
+2021-06-15 12:24:42 [main] INFO  ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 3056 ms
+2021-06-15 12:24:42 [main] WARN  JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-15 12:24:42 [main] INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-15 12:24:42 [task-1] INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-15 12:24:42 [task-1] INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.22.Final
+2021-06-15 12:24:43 [task-1] INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-06-15 12:24:43 [task-1] INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2021-06-15 12:24:43 [task-1] INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-06-15 12:24:43 [task-1] INFO  Dialect:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2021-06-15 12:24:45 [task-1] INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-15 12:24:45 [task-1] INFO  LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-15 12:24:45 [main] INFO  EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-15 12:24:45 [main] INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d8cf9ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cd43562, org.springframework.security.web.header.HeaderWriterFilter@65afeb6d, org.springframework.web.filter.CorsFilter@5f0bab7e, org.springframework.security.web.authentication.logout.LogoutFilter@642a16aa, com.memorystack.security.JwtAuthenticationFilter@3119cf6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68b366e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78d71df1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a7b2e2, org.springframework.security.web.session.SessionManagementFilter@3520963d, org.springframework.security.web.access.ExceptionTranslationFilter@630bf683, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@298b64f7]
+2021-06-15 12:24:46 [main] INFO  TomcatWebServer:220 - Tomcat started on port(s): 5000 (http) with context path ''
+2021-06-15 12:24:46 [main] INFO  DeferredRepositoryInitializationListener:49 - Triggering deferred initialization of Spring Data repositories…
+2021-06-15 12:24:47 [main] INFO  DeferredRepositoryInitializationListener:53 - Spring Data repositories initialized!
+2021-06-15 12:24:47 [main] INFO  MemoryStackApplication:61 - Started MemoryStackApplication in 8.831 seconds (JVM running for 9.933)
+2021-06-15 12:26:17 [http-nio-5000-exec-2] INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-06-15 12:26:17 [http-nio-5000-exec-2] INFO  DispatcherServlet:547 - Completed initialization in 13 ms
+2021-06-15 12:26:17 [http-nio-5000-exec-2] DEBUG SQL:144 - select job0_.id as id1_3_, job0_.discription as discript2_3_, job0_.location as location3_3_, job0_.payrate as payrate4_3_, job0_.title as title5_3_ from job job0_
+2021-06-15 12:29:58 [http-nio-5000-exec-5] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain' not supported]
+2021-06-15 12:31:46 [http-nio-5000-exec-8] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain' not supported]
+2021-06-15 12:32:16 [http-nio-5000-exec-9] INFO  JobServiceImpl:28 - entity=Job 
+ID : null
+Title : Full Stack Developer
+Location : Atlanta,GA
+Payrate : 150000
+Discription : 
+this is a Java full stack role
+2021-06-15 12:32:16 [http-nio-5000-exec-9] DEBUG SQL:144 - insert into job (discription, location, payrate, title) values (?, ?, ?, ?)
+2021-06-15 12:32:16 [http-nio-5000-exec-9] INFO  JobServiceImpl:33 - result=Job 
+ID : 1
+Title : Full Stack Developer
+Location : Atlanta,GA
+Payrate : 150000
+Discription : 
+this is a Java full stack role
+2021-06-15 12:32:16 [http-nio-5000-exec-9] INFO  JobRestController:40 - status=true
+2021-06-15 12:33:02 [http-nio-5000-exec-10] DEBUG SQL:144 - select job0_.id as id1_3_, job0_.discription as discript2_3_, job0_.location as location3_3_, job0_.payrate as payrate4_3_, job0_.title as title5_3_ from job job0_
+2021-06-15 12:34:13 [http-nio-5000-exec-3] DEBUG SQL:144 - select job0_.id as id1_3_0_, job0_.discription as discript2_3_0_, job0_.location as location3_3_0_, job0_.payrate as payrate4_3_0_, job0_.title as title5_3_0_ from job job0_ where job0_.id=?
+2021-06-15 12:36:07 [http-nio-5000-exec-6] DEBUG SQL:144 - select job0_.id as id1_3_0_, job0_.discription as discript2_3_0_, job0_.location as location3_3_0_, job0_.payrate as payrate4_3_0_, job0_.title as title5_3_0_ from job job0_ where job0_.id=?
+2021-06-15 12:36:53 [http-nio-5000-exec-7] WARN  DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2021-06-15 12:39:14 [http-nio-5000-exec-10] DEBUG SQL:144 - select job0_.id as id1_3_0_, job0_.discription as discript2_3_0_, job0_.location as location3_3_0_, job0_.payrate as payrate4_3_0_, job0_.title as title5_3_0_ from job job0_ where job0_.id=?
+2021-06-15 12:39:14 [http-nio-5000-exec-10] DEBUG SQL:144 - UPDATE job  SET title = ?, location = ?, payrate = ?, discription = ? WHERE id = ?
+2021-06-15 12:41:06 [http-nio-5000-exec-3] DEBUG SQL:144 - select job0_.id as id1_3_0_, job0_.discription as discript2_3_0_, job0_.location as location3_3_0_, job0_.payrate as payrate4_3_0_, job0_.title as title5_3_0_ from job job0_ where job0_.id=?
+2021-06-15 12:41:06 [http-nio-5000-exec-3] DEBUG SQL:144 - UPDATE job  SET title = ?, location = ?, payrate = ?, discription = ? WHERE id = ?
+2021-06-15 12:42:07 [http-nio-5000-exec-5] DEBUG SQL:144 - select job0_.id as id1_3_0_, job0_.discription as discript2_3_0_, job0_.location as location3_3_0_, job0_.payrate as payrate4_3_0_, job0_.title as title5_3_0_ from job job0_ where job0_.id=?
+2021-06-15 12:42:07 [http-nio-5000-exec-5] DEBUG SQL:144 - delete from job where id=?

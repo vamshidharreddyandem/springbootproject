@@ -11,6 +11,8 @@ com\memorystack\repositories\QuestionRepo.class
 com\memorystack\service\IQuizService.class
 com\memorystack\service\impl\ConfirmationTokenService.class
 com\memorystack\service\impl\QuizServiceImpl.class
+com\memorystack\service\impl\JobServiceImpl.class
+com\memorystack\repositories\JobRepo.class
 com\memorystack\audit\UserDateAudit.class
 com\memorystack\repositories\RegisteredSubjectRepo.class
 com\memorystack\dto\ExamResultDto.class
@@ -49,6 +51,7 @@ com\memorystack\config\AuditingConfig.class
 com\memorystack\controllers\ExamRestController.class
 com\memorystack\exceptions\BadRequestException.class
 com\memorystack\config\SpringSecurityAuditAwareImpl.class
+com\memorystack\model\Job.class
 com\memorystack\service\impl\AppUserService.class
 com\memorystack\repositories\ConfirmationTokenRepository.class
 com\memorystack\service\impl\SubjectServiceImpl.class
@@ -68,8 +71,10 @@ com\memorystack\controllers\StudentRestController.class
 com\memorystack\repositories\ExamRepo.class
 com\memorystack\controllers\QuestionRestController.class
 com\memorystack\model\Admin.class
+com\memorystack\service\JobService.class
 com\memorystack\exceptions\AppException.class
 com\memorystack\service\impl\UserServiceImpl.class
+com\memorystack\controllers\JobRestController.class
 com\memorystack\controllers\AdminRestController.class
 com\memorystack\service\IExamService.class
 com\memorystack\exceptions\StudentNotFoundException.class
